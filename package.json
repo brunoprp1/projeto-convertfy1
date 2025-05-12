@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "start": "node server/index.js",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -13,6 +14,7 @@
     "@fontsource/inter": "^5.0.16",
     "@netlify/functions": "^2.4.1",
     "canvas-confetti": "^1.9.2",
+    "express": "^4.18.2",
     "firebase": "^10.7.1",
     "framer-motion": "^10.16.4",
     "lucide-react": "^0.284.0",
